@@ -56,7 +56,7 @@ public class NotificationServlet extends HttpServlet {
             e.printStackTrace();
         }
         LogSender sender = new LogSender(url, key, port, this);
-        sender.doSend("2.0-1000-test.xes");
+        sender.doSend("test-log.xes");
     }
 
 }
